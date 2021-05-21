@@ -40,3 +40,4 @@
     "phone":"59 486 576 43"
 }
 
+curl  -H "X-API-key: AQEihmfuXNWTK0Qc+iSTmVcsqPaeRffDolbEW/60TgIO5FZgNRDBXVsNvuR83LVYjEgiTGAH-OtCbBryhpw+0p4Dw2AnK6TOIYzTJhyepErcKL8BAq9w=-y~[<ZrtjGxYT7548" -H "Content-Type: application/json" --data @details.json https://checkout-test.adyen.com/v67/payments
