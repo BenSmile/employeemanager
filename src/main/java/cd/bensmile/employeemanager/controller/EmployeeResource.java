@@ -17,7 +17,7 @@ public class EmployeeResource {
     @Autowired
     private EmployeeService employeeService;
 
-    @GetMapping("/")
+    @GetMapping(value = {"/", ""})
     public ResponseEntity<List<Employee>> findAllEmployees() {
         List<Employee> allEmployees = employeeService.findAllEmployees();
         return new ResponseEntity<>(allEmployees, HttpStatus.OK);
